@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gifts Landing Page</title>
+</head>
+<body>
+    <section  class="showcase">
+        <header>
+            <h2 class="logo">Gifts </h2>
+                <div class="toggle"></div>
+      
+        </header>
+        <video src="pexels.mp4" muted loop autoplay></video>
+        
+    
+          <div class="card-img-overlay"></div>
+
+            
+            <div class="text">
+                <h2>
+                    Memory of love that we long for
+                </h2>
+                <h3>
+                    Make memories with your presents
+                </h3>
+                <p> Elegant candles and small decor pieces. Specialty stationary or fine writing pens.Handy, pocket-sized tools and gadgets.make smiles with that reflects the recipients' passions, loves, hobbies, and life.
+                </p>
+                <a href="#">Add to cart</a>
+                
+
+
+            </div>
+            <ul class="social">
+                
+                <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+                <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+                </ul>
+    </section>
+
+    <div class="menu">
+    <ul>
+        <li><a href="#">Gift type</a></li>
+        <li><a href="#">Recipient Age</a></li>
+         <li><a href="#">Occasion </a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+<script>
+       const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+</html>
